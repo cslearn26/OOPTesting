@@ -21,6 +21,7 @@ namespace Surya.Learning.OOPTesting
             IResource resource = (IResource)aThing;
             resource.Move ();
 
+			// String reverse test
             Console.WriteLine ("Enter a string to reverse: ");
             String inputString = Console.ReadLine ();
             Console.WriteLine (StringHelper.Reverse (inputString));
